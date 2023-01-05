@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > button {
+    position: absolute;
+    top: 35%;
+    right: 0px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#dropdown {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+}
+
+#growingself {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/new.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#growingself > h1 {
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 84px;
+    color: rgb(182, 204, 106);
+}
+
+#growingself > p {
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 84px;
+    color: rgb(196, 38, 188);
+}
+
+#growingself > p:nth-child(3) {
+    color: rgb(205, 207, 76);
+}
+
+#growingself > p:nth-child(4) {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#growingself > button {
+    background-color: lime;
+    color: rgb(46, 56, 46);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#growingself > button:hover {
+    background-color: white;
+}
+
+#relationship {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/new.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#relationship > h1 {
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 84px;
+    color: rgb(182, 204, 106);
+}
+
+#relationship > p {
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 84px;
+    color: rgb(196, 38, 188);
+}
+
+#relationship > p:nth-child(3) {
+    color: rgb(240, 101, 101);
+}
+
+#relationship > p:nth-child(4) {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#relationship > button {
+    background-color: lime;
+    color: rgb(46, 56, 46);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#relationship > button:hover {
+    background-color: white;
+}
+
+#connected {
+    width: 100vw;
+    height: 200px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#connected > button {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(92, 69, 102);
+    padding: 15px;
+}
+
+#connected > button:hover {
+    background-color: purple;
+}
+
+#availability {
+    width: 100vw;
+    height: 200px;
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
