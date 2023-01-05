@@ -79,7 +79,7 @@ header > button {
 }
 
 #relationship {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/new.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://kengnelisa.github.io/Bliscoach/relationship.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     width: 100vw;
