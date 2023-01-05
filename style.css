@@ -36,7 +36,7 @@ header > button {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://kengnelisa.github.io/Bliscoach/new.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ header > button {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://kengnelisa.github.io/Bliscoach/relationship.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ header > button {
 }
 
 #connected {
-    width: 100vw;
+    width: 100%;
     height: 200px;
     background-color: purple;
     display: flex;
@@ -147,7 +147,7 @@ header > button {
 }
 
 #availability {
-    width: 100vw;
+    width: 100%;
     height: 200px;
     background-color: purple;
     display: flex;
@@ -156,3 +156,76 @@ header > button {
     align-items: center;
     color: white;
 }
+
+@media screen and (max-width: 1250px) {
+    #growingself {
+        padding: 0 6vw;
+    }
+
+    #growingself > h1 {
+        font-size: 60px;
+    }
+
+    #growingself p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #growingself {
+        padding: 0 6vw;
+    }
+
+    #growingself > h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #relationship {
+        padding: 0 6vw;
+    }
+
+    #relationship > h1 {
+        font-size: 60px;
+    }
+
+    #relationship p {
+        font-size: 25px;
+    }
+
+    @media screen and (max-width: 950px) {
+        #relationship {
+            padding: 0 6vw;
+        }
+    
+        #relattionship > h1 {
+            font-size: 40px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1250px) {
+    #available {
+        padding: 0 6vw;
+    }
+
+    #available > h1 {
+        font-size: 60px;
+    }
+
+    #available p {
+        font-size: 25px;
+    }
+}
+
+    @media screen and (max-width: 950px) {
+        #available {
+            padding: 0 6vw;
+        }
+    
+        #available > h1 {
+            font-size: 40px;
+        }
+    }
